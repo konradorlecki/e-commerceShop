@@ -14,7 +14,6 @@ const Cart= () => {
         actions({type:'setState', payload:{cart:productsInCartState}});
     }
 
-
     const showEmptyCart = () =>{
         if(localState.emptyCartShow === false) {
             setCartShow({emptyCartShow:true, emptyCartMessage: 'Rozwiń koszyk'})
@@ -35,7 +34,6 @@ const Cart= () => {
     }
 
     if(productsInCartState[0] === undefined || productsInCartState[0].count === 0){
-        console.log(productsInCartState);
     return(
         <div className='cart'>
             <h2>Koszyk</h2>

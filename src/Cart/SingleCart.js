@@ -19,7 +19,6 @@ const SingleCartItem=({hidden,id,src, name, price, count})=> {
     };
 
     const reduceCount = () => {
-        console.log(state.cart.length)
         const updatingCount = {
             ...productAlreadyInCart[0],
             count: productAlreadyInCart[0].count -1,

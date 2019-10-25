@@ -1,7 +1,6 @@
 import {useState} from 'react'
 
 const useGlobalState = () => {
-    console.log('global chuj');
     const [state, setState] = useState({cart:[]});
 
     const actions = (action) => {
@@ -12,6 +11,6 @@ const useGlobalState = () => {
             return state;
         }
     };
-    return {state, actions, setState}
+    return {state, actions}
 };
 export default useGlobalState;
