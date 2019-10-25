@@ -38,7 +38,7 @@ const Cart= () => {
         console.log(productsInCartState);
     return(
         <div className='cart'>
-            <p>Koszyk</p>
+            <h2>Koszyk</h2>
             <button onClick={showEmptyCart} className='myButton'>{localState.emptyCartMessage}</button>
             <h4 hidden={localState.emptyCartShow}>koszyk jest pusty</h4>
         </div>
@@ -47,7 +47,6 @@ const Cart= () => {
             <div className='cart'>
                 <p>Koszyk</p>
                 <button onClick={showCart} className='myButton'>{cartProducts.cartMessage}</button>
-                <p hidden={cartProducts.cartShow}>Ilość</p>
                 {productsInCartState.map(e=><SingleCartItem hidden={cartProducts.cartShow} key={e.id} {...e}/>)}
                 <h4 hidden={cartProducts.cartShow}>Suma:{sum} zł</h4>
             </div>

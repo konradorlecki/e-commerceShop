@@ -26,13 +26,13 @@ const products=[
     {
         id:5,
         src:'https://mosaic03.ztat.net/vgs/media/packshot/catalog-lg/DC/11/5O/00/RQ/11/DC115O00R-Q11@2.jpg',
-        name:'DC ShoesSTACK',
+        name:'DC Shoes STACK',
         price:349.00
     },
     {
         id:6,
         src:'https://mosaic04.ztat.net/vgs/media/packshot/catalog-lg/DC/11/5N/00/2Q/12/DC115N002-Q12@4.jpg',
-        name:'DC ShoesPURE TOP SE',
+        name:'DC Shoes PURE TOP SE',
         price:314.00
     },
     {
