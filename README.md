@@ -1,0 +1,1 @@
+Its my project of simple e-commerce shop for recruitment process.

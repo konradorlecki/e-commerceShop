@@ -1,0 +1,41 @@
+.cart{
+  width:90vw;
+  margin-left:auto;
+  margin-right:auto;
+  >p:nth-of-type(2){
+    margin-left:28%;
+  }
+  >div {
+    margin-bottom:2vh;
+    > div {
+      display: flex;
+      align-items: center;
+
+      > img {
+        width: 14vw;
+        height: 18vw;
+        margin-right: 3vw;
+      }
+
+      > p:first-of-type {
+        margin-right: 3vw;
+        max-width: 123px;
+      }
+
+      span {
+        margin-right: 1vw;
+      }
+
+      > div {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3vw
+      }
+    }
+  }
+  >h4{
+    text-align: center;
+    margin-top:5%;
+  }
+
+}
